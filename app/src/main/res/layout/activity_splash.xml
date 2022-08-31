@@ -27,6 +27,9 @@
     <TextView
         android:id="@+id/textView"
         android:textAlignment="center"
+        android:foregroundTint="#151212"
+        android:textSize="25sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:layout_marginTop="25sp" 
         android:textStyle="bold|normal"
         android:textColor="@color/black"
@@ -39,7 +42,7 @@
         android:id="@+id/btn_intent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Home" />
 
 
 </LinearLayout>
