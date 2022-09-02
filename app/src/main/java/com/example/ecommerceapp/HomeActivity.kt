@@ -15,5 +15,13 @@ class HomeActivity : AppCompatActivity() {
             val splash = Intent(this, SplashActivity::class.java)
             startActivity(splash)
         }
+        val navbtn =  findViewById<Button>(R.id.button_nav)
+        navbtn.setOnClickListener {
+            val nav = Intent(this, BottomNavigationActivity::class.java)
+            startActivity(nav)
+        }
     }
+
+
+
 }
